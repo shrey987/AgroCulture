@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap");
+
+.header {
+  background-color: #1c2833;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 0.5rem 10rem 0.5rem 12rem;
+}
+
+.header__logoLink {
+  text-decoration: none;
+}
+
+.header__logo {
+  /* color: antiquewhite; */
+  color: #c0392b;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 2.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  object-fit: contain;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 3rem;
+}
+
+.header__link {
+  color: beige;
+  text-decoration: none;
+  margin: 0.5rem 1rem;
+}
+
+.header__cart {
+  position: relative;
+}
+
+.header__cart span {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  position: absolute;
+  bottom: 55%;
+  left: 80%;
+  background-color: #c0392b;
+  border-radius: 1rem;
+}
+
+.header__option {
+  font-size: 1.5rem;
+}
